@@ -1,6 +1,7 @@
 # OWN-MINI-DICT
-asciidict = dict()
-alfapetTeller = range(97,123)
-for i in alfapetTeller:
-    asciidict[str(i)] = chr(i)
-print(asciidict)
+dict = {}
+
+for i in range(97,97+26):
+    dict[chr(i)] = i
+print(dict)
+
